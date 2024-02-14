@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+
+}
+
+a:hover {
+    color: unset;
+}
+
+:root {
+    --rim-color: #6E38F7;
+    --bag-color: #FFFFFF;
+    --dark-color: #363940;
+    --text-color: #95A1BB;
+
+}
+
+
+/* Protsent */
+
+
+body {
+    background-color: var(--bag-color);
+}
+
+.main {
+    width: 100%;
+    background-color: var(--bag-color);
+}
+
+.protsent {
+    background-color: var(--bag-color);
+    width: 100%;
+    row-gap: 100px;
+    margin-top: 100px;
+}
+
+.pro {
+    row-gap: 50px;
+}
+
+.container {}
+
+.title {
+    color: var(--dark-color);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+
+
+.protsent-card {
+    display: flex;
+    width: 220px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.protsent-card-title {
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    transition: 0.4s;
+}
+
+.protsent-card-text {
+    width: 200px;
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    transition: 0.5s;
+}
+
+.protsent-card-title:hover {
+    color: var(--rim-color);
+}
+
+/* Protsent */
+/* Forms */
+
+.forms {
+    margin-top: 200px;
+}
+
+.forms-header {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.forms-header-title {
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.forms-header-btn {
+    background-color: var(--rim-color);
+    text-decoration: none;
+    width: 160px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: var(--bag-color);
+}
+
+.forms-header-btn:hover {
+    color: var(--bag-color);
+}
+
+.forms-decs {
+    width: 940px;
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+.input-group::placeholder {
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.form-control {
+    position: relative;
+}
+
+/* cards */
+.carder {
+    width: 100%;
+    background-color: var(--bag-color);
+    margin-top: 200px;
+}
+
+.caredr-title {
+    width: 100%;
+
+    text-align: center;
+}
+
+.caredr-decs {
+    width: 100%;
+    text-align: center;
+}
+
+.carder-card {
+    display: flex;
+    width: 450px;
+    height: 200px;
+    margin-right: 50px;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+}
+
+.card-texts {}
+
+.card-title {
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.card-namer {
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card-desc {
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+.price-cards {}
+
+.container {}
+
+.price-card {
+    width: 220px;
+    height: 372px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.card-img-img {
+    display: flex;
+    width: 220px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-price {
+    color: var(--rim-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.card-title-2 {
+
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
+.Sliders {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    max-height: 300px;
+    height: 100%;
+    
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner {
+    width: 638px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.carousel-control-prev {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top: auto;
+    left: 0;
+    z-index: 100;
+}
+
+.carousel-control-prev-i {
+    color: black;
+    background-image: url(../img/prev.png);
+    width: 50px;
+    height: 50px;
+}
+
+.visually-hidden {
+    color: black;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+
+}
+
+.carousel-control-next {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top: auto;
+    right: 0;
+}
+
+.carousel-control-next-i {
+    color: black;
+    background-image: url(../img/next.svg);
+    width: 50px;
+    height: 50px;
+}
+
+.slidders-subtitle {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.slidders-title {
+    color: var(--dark-color);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    margin-bottom: 20px;
+ 
+}
+
+.slidders-decs {
+    width: 638px;
+    color: var(--text-color);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.slidders-btn-btn {
+    padding: 13px 31px 13px;
+    background-color: var(--rim-color);
+    margin: 0 240px;
+    text-decoration: none;
+    width: 157px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slidders-btn-btn span {
+    color: var(--bag-color);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.container {}
+
+.Contacts-texts {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-left: 30px;
+
+}
+
+.Contacts-title {
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+   
+}
+
+.d-flexses {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Contacts-status {
+    width: 313px;
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.Contacts-number {
+    width: 185px;
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-right: 100px;
+    
+}
+
+.Contacts-email {
+    width: 185px;
+    color: var(--rim-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.Contacts-carta {
+    margin-left: 200px;
+    width: 510px;
+    height: 278px;
+}
+
+.frame {
+    width: 510px;
+    height: 278px;
+}
